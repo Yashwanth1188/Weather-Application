@@ -1,0 +1,92 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+
+ html {
+
+    font-size: 100%;
+    
+    box-sizing: border-box;
+    
+    }
+    
+    body {
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    
+    min-height: 100vh;
+    
+    background-color: #FF9900;
+    
+    }
+    
+    .card {
+    
+    background:#fff;
+    
+    width: 500px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    border-radius: 10px;
+    
+    padding: 40px;
+    
+    }
+    
+    .card .card-info {
+    
+    font-size: 15px;
+    
+    font-weight: bold;
+    
+    padding: 10px;
+    
+    }
+
+   .card .card-info .card-content {
+    
+    padding: 10px;
+    
+    border-bottom: 1px solid #333;
+    
+    }
+    
+    .card .card-weather {
+    
+    margin-left: auto;
+    
+    display: flex;
+    
+    align-items: center;
+    
+    gap: 12px;
+    }
+    
+    card-weather-icon {
+    
+    animation: move is infinite alternate ease-in-out;
+    
+    }
+    
+    .card .card-weather  .card-weather-desc {
+    
+    font-size: 13px;
+    
+    }
+   
+
+    #country:hover, #currentLocation:hover,#date:hover,#morning-desc:hover,#night-desc:hover{
+      color: tomato;
+      cursor: pointer;
+
+    }
